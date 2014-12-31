@@ -6,4 +6,4 @@ sudo debconf-set-selections <<< 'mariadb-server-10.0 mysql-server/root_password_
 sudo apt-get install -y mariadb-server
 echo "Fin instalacion mariadb"
 echo "Paramos el servicio mariadb"
-sudo service mysql restart
+sudo service mysql stop
