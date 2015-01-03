@@ -2,7 +2,7 @@
 class Connection {
 	//Add (or remove) as many databases as you would like.  See ReadMe for naming conventions.
 	public $db1 = array(
-		"host" => "$mariadb_service.address.public:$mariadb_service.port",
+		"host" => "$mariadb_service.address.public:$mariadb_port",
 		"user" => "$username",
 		"pw" => "$password",
 		"db_name" => "sampledb"
