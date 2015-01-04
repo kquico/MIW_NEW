@@ -1,6 +1,6 @@
 <?php
 include 'db_connect.php';  //include the db_connect.php file
-print "<HTML><BODY><H1>Showing the users of the sampledb that has been created in the RDS few seconds ago!</H1>\n";
+print "<HTML><BODY><H1>Mostramos el resultado de la consulta de la tabla users</H1>\n";
 //Create and set a new connection
 $get = new Connection("db1"); //"db1" is user defined in db_connect.php
 //Create a query: $var->query("SQL_STATEMENT"); $var is the variable you created a connection with.
